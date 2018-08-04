@@ -146,7 +146,7 @@ else{}
 <h4>＊送信フォーム＊</h4>
 <p>新規投稿: 名前、コメント、パスワードを入力して送信してください。<br>
 編集: 編集番号指定フォームから編集したい投稿の番号を入力すると、その投稿の名前、コメントが表示されます。編集したら送信すると上書き保存されます。</p>
-<form action=firstBBS.php method=post>
+<form action=myfirstBBS.php method=post>
 <p>名前: <input type = "text" name="name" value = "<?=$name?>"></p>
 <p>コメント: <input type = "text" name="comment" value = "<?=$comment?>"></p>
 <p>パスワード: <input type = "text" name="PW" ></p>
@@ -156,7 +156,7 @@ else{}
 <br>
 <h4>＊編集番号指定フォーム＊</h4>
 <p>編集したい投稿の番号(一番左端)と投稿時に設定したパスワードを入力してください。編集ボタンを押すと投稿内容が送信フォームに表示され、編集できるようになります。</p>
-<form action=firstBBS.php method=post>
+<form action=myfirstBBS.php method=post>
 <p>編集対象番号: <input type = "text" name="editNum" ></p>
 <p>パスワード: <input type = "text" name="editPW" ></p>
 <p><input type = "submit" value = "編集" /></p>
@@ -164,7 +164,7 @@ else{}
 <br>
 <h4>＊削除フォーム＊</h4>
 <p>削除したい投稿の番号(一番左端)を入力してください。投稿時に設定したパスワードを入れて削除ボタンを押すと、投稿は削除されます。</p>
-<form action=firstBBS.php method=post>
+<form action=myfirstBBS.php method=post>
 <p>削除対象番号: <input type = "text" name="delNum" ></p>
 <p>パスワード: <input type = "text" name="delPW"></p>
 <p><input type = "submit" value = "削除" /></p>
